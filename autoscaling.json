@@ -1,0 +1,57 @@
+﻿{
+    "CheckInterval": 120,
+    "DemoMode": true,
+    "Reads": {
+        "EnableAutoscaling": true,
+        "UpperThreshold": 50,
+        "LowerThreshold": 25,
+        "ThrottleThreshold": 50,
+        "IncreaseWithPercent": 50,
+        "DecreaseWithPercent": 45,
+    },
+    "Writes": {
+        "EnableAutoscaling": true,
+        "UpperThreshold": 50,
+        "LowerThreshold": 25,
+        "ThrottleThreshold": 50,
+        "IncreaseWithPercent": 50,
+        "DecreaseWithPercent": 45,
+    },
+    "TableConfigurations": [
+        {
+            "TableName": "table1",
+            "Reads": { "MinProvisioned": 1, "MaxProvisioned": 100 },
+            "Writes": { "MinProvisioned": 1, "MaxProvisioned": 1000 }
+        },
+        {
+            "TableName": "table2",
+            "Reads": { "MinProvisioned": 1, "MaxProvisioned": 10 },
+            "Writes": { "MinProvisioned": 1, "MaxProvisioned": 150 }
+        },
+        {
+            "TableName": "*",
+            "Reads": { "MinProvisioned": 1, "MaxProvisioned": 10 },
+            "Writes": { "MinProvisioned": 1, "MaxProvisioned": 150 }
+        }
+    ],
+    "GlobalSecondaryIndexConfigurations": [
+        {
+            "TableName": "table1",
+            "IndexName": "index1",
+            "Reads": { "MinProvisioned": 1, "MaxProvisioned": 10 },
+            "Writes": { "MinProvisioned": 1, "MaxProvisioned": 10 }
+        },
+        {
+            "TableName": "table2",
+            "IndexName": "*",
+            "Reads": { "MinProvisioned": 1, "MaxProvisioned": 10 },
+            "Writes": { "MinProvisioned": 1, "MaxProvisioned": 10 }
+        },
+        {
+            "TableName": "*",
+            "IndexName": "*",
+            "Reads": { "MinProvisioned": 1, "MaxProvisioned": 10 },
+            "Writes": { "MinProvisioned": 1, "MaxProvisioned": 10 }
+        }
+    ]
+}

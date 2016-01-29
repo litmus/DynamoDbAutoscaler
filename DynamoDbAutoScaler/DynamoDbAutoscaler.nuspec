@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>DynamoDbAutoscaler</title>
+    <authors>Litmus</authors>
+    <owners>Litmus</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Auto scale dynamodb tables based on usage.  Inspired by Dynamic DynamoDB https://github.com/sebdah/dynamic-dynamodb </description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2015-2016 Litmus</copyright>
+    <tags></tags>
+  </metadata>
+</package>

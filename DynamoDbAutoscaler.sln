@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamoDbAutoscaler", "DynamoDbAutoScaler\DynamoDbAutoscaler.csproj", "{E879FC21-B739-45B0-8380-09A1A37AF59B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamoDbAutoscaler.Test", "DynamoDbAutoscaler.Test\DynamoDbAutoscaler.Test.csproj", "{34D6995A-F618-4B83-8404-BAA3DF08A09B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E879FC21-B739-45B0-8380-09A1A37AF59B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E879FC21-B739-45B0-8380-09A1A37AF59B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E879FC21-B739-45B0-8380-09A1A37AF59B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E879FC21-B739-45B0-8380-09A1A37AF59B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34D6995A-F618-4B83-8404-BAA3DF08A09B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34D6995A-F618-4B83-8404-BAA3DF08A09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34D6995A-F618-4B83-8404-BAA3DF08A09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34D6995A-F618-4B83-8404-BAA3DF08A09B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\TransientFaultHandling.Core.5.1.1209.1\lib\NET4
+	EndGlobalSection
+EndGlobal
