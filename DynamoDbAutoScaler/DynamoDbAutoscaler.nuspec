@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <package >
   <metadata>
-    <id>$id$</id>
+    <id>DynamoDbAutoscaler</id>
     <version>$version$</version>
     <title>DynamoDbAutoscaler</title>
     <authors>Litmus</authors>
