@@ -102,7 +102,7 @@ namespace DynamoDbAutoScaler
 
             var tableName = configuration.TableName;
             var provisioned = await throughputClient.GetTableThroughputLevelAsync(tableName, cancellationToken).ConfigureAwait(false);
-            var metrics = await metricsClient.GetTableMetricsAsync(tableName).ConfigureAwait(false);
+            var metrics = await metricsClient.GetTableMetricsAsync(tableName, cancellationToken).ConfigureAwait(false);
             LogStats(configuration, provisioned, metrics);
 
             var updated = EnsureProvision(isCircuitBreakerTripped, provisioned, metrics, configuration);
@@ -137,7 +137,7 @@ namespace DynamoDbAutoScaler
             var indexName = configuration.IndexName;
 
             var provisioned = await throughputClient.GetGlobalSecondaryIndexThroughputLevelAsync(tableName, indexName, cancellationToken).ConfigureAwait(false);
-            var metrics = await metricsClient.GetGlobalSecondaryIndexMetricsAsync(tableName, indexName);
+            var metrics = await metricsClient.GetGlobalSecondaryIndexMetricsAsync(tableName, indexName, cancellationToken);
             LogStats(configuration, provisioned, metrics);
 
             var updated = EnsureProvision(isCircuitBreakerTripped, provisioned, metrics, configuration);

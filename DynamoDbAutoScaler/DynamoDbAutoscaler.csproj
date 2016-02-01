@@ -71,6 +71,7 @@
   <ItemGroup>
     <Compile Include="AutoScaleProvisioningException.cs" />
     <Compile Include="Autoscaler.cs" />
+    <Compile Include="CloudWatchDynamoDbTableMetricsClient.cs" />
     <Compile Include="Configuration\AutoscalingConfiguration.cs" />
     <Compile Include="Configuration\AutoscalingConfigurationSet.cs" />
     <Compile Include="Configuration\GlobalAutoscalingConfigurationSet.cs" />
