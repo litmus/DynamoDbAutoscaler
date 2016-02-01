@@ -27,29 +27,12 @@
             "TableName": "table2",
             "Reads": { "MinProvisioned": 1, "MaxProvisioned": 10 },
             "Writes": { "MinProvisioned": 1, "MaxProvisioned": 150 }
-        },
-        {
-            "TableName": "*",
-            "Reads": { "MinProvisioned": 1, "MaxProvisioned": 10 },
-            "Writes": { "MinProvisioned": 1, "MaxProvisioned": 150 }
         }
     ],
     "GlobalSecondaryIndexConfigurations": [
         {
             "TableName": "table1",
             "IndexName": "index1",
-            "Reads": { "MinProvisioned": 1, "MaxProvisioned": 10 },
-            "Writes": { "MinProvisioned": 1, "MaxProvisioned": 10 }
-        },
-        {
-            "TableName": "table2",
-            "IndexName": "*",
-            "Reads": { "MinProvisioned": 1, "MaxProvisioned": 10 },
-            "Writes": { "MinProvisioned": 1, "MaxProvisioned": 10 }
-        },
-        {
-            "TableName": "*",
-            "IndexName": "*",
             "Reads": { "MinProvisioned": 1, "MaxProvisioned": 10 },
             "Writes": { "MinProvisioned": 1, "MaxProvisioned": 10 }
         }
