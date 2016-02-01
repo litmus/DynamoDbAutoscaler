@@ -80,6 +80,7 @@
     <Compile Include="DynamoDbTableThroughput.cs" />
     <Compile Include="DynamoDbTableThroughputClient.cs" />
     <Compile Include="DynamoDbThroughput.cs" />
+    <Compile Include="NullCircuitBreaker.cs" />
     <Compile Include="SqsQueueDynamoDbCircuitBreaker.cs" />
     <Compile Include="Extensions.cs" />
     <Compile Include="Interfaces\ICircuitBreaker.cs" />

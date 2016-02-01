@@ -23,6 +23,16 @@ namespace DynamoDbAutoScaler
         private readonly ICircuitBreaker circuitBreaker;
         private readonly ILogger structuredLogger;
 
+        public Autoscaler(ILogger logger) : this(
+                new DynamoDbTableThroughputClient(logger),
+                new CloudWatchDynamoDbTableMetricsClient(),
+                new AutoscalingCalculator(logger),
+                new NullCircuitBreaker(),
+                logger)
+        {
+
+        }
+
         public Autoscaler(
             IDynamoDbTableThroughputClient throughputClient,
             IDynamoDbTableMetricsClient metricsClient,
