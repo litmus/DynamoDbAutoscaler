@@ -1,4 +1,4 @@
-﻿namespace DynamoDbAutoScaler.Models
+﻿namespace DynamoDbAutoscaler.Models
 {
     public enum AutoscaleDirection
     {

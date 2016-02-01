@@ -4,7 +4,7 @@ using DynamoDbAutoscaler.Interfaces;
 using Serilog;
 using System;
 using System.Threading.Tasks;
-namespace DynamoDbAutoScaler
+namespace DynamoDbAutoscaler
 {
     public class SqsQueueDynamoDbCircuitBreaker : ICircuitBreaker
     {

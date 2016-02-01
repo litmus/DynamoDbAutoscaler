@@ -4,16 +4,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using DynamoDbAutoScaler.Configuration;
-using DynamoDbAutoScaler.Interfaces;
-using DynamoDbAutoScaler.Models;
-using DynamoDbAutoScaler.Provisioners;
+using DynamoDbAutoscaler.Configuration;
+using DynamoDbAutoscaler.Interfaces;
+using DynamoDbAutoscaler.Models;
+using DynamoDbAutoscaler.Provisioners;
 using DynamoDbAutoscaler.Interfaces;
 using Serilog;
 using DynamoDbAutoscaler;
 using DynamoDbAutoscaler.Models;
 
-namespace DynamoDbAutoScaler
+namespace DynamoDbAutoscaler
 {
     public class Autoscaler : IAutoscaler
     {

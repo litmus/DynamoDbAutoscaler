@@ -1,9 +1,9 @@
 ﻿
 using Moq;
 using NUnit.Framework;
-using DynamoDbAutoScaler;
+using DynamoDbAutoscaler;
 using DynamoDbAutoscaler.Interfaces;
-using DynamoDbAutoScaler.Models;
+using DynamoDbAutoscaler.Models;
 
 namespace DynamoDbAutoscaler.Test
 {

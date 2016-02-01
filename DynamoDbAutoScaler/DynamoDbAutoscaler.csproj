@@ -76,10 +76,13 @@
     <Compile Include="Configuration\AutoscalingConfigurationSet.cs" />
     <Compile Include="Configuration\GlobalAutoscalingConfigurationSet.cs" />
     <Compile Include="Configuration\GlobalSecondaryIndexAutoscalingConfigurationSet.cs" />
+    <Compile Include="DynamoDbAutoscalerIntervalProvisioner.cs" />
     <Compile Include="DynamoDbGlobalSecondaryIndexThroughput.cs" />
     <Compile Include="DynamoDbTableThroughput.cs" />
     <Compile Include="DynamoDbTableThroughputClient.cs" />
     <Compile Include="DynamoDbThroughput.cs" />
+    <Compile Include="Interfaces\IGlobalAutoscalingConfigurationSetFactory.cs" />
+    <Compile Include="LocalFileGlobalAutoscalingConfigurationSetFactory.cs" />
     <Compile Include="NullCircuitBreaker.cs" />
     <Compile Include="SqsQueueDynamoDbCircuitBreaker.cs" />
     <Compile Include="Extensions.cs" />

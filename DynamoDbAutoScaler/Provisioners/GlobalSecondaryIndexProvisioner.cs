@@ -1,11 +1,11 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
-using DynamoDbAutoScaler.Interfaces;
+using DynamoDbAutoscaler.Interfaces;
 using DynamoDbAutoscaler.Interfaces;
 using DynamoDbAutoscaler;
 using Serilog;
 
-namespace DynamoDbAutoScaler.Provisioners
+namespace DynamoDbAutoscaler.Provisioners
 {
     public class GlobalSecondaryIndexProvisioner : Provisioner
     {

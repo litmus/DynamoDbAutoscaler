@@ -1,11 +1,11 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
-using DynamoDbAutoScaler.Interfaces;
+using DynamoDbAutoscaler.Interfaces;
 using Serilog;
 using DynamoDbAutoscaler.Interfaces;
 using DynamoDbAutoscaler;
 
-namespace DynamoDbAutoScaler.Provisioners
+namespace DynamoDbAutoscaler.Provisioners
 {
     public class TableProvisioner : Provisioner
     {

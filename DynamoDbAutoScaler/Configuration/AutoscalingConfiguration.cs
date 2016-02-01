@@ -1,4 +1,4 @@
-﻿namespace DynamoDbAutoScaler.Configuration
+﻿namespace DynamoDbAutoscaler.Configuration
 {
     public class AutoscalingConfiguration
     {

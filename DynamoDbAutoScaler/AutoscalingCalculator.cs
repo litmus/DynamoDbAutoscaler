@@ -1,8 +1,8 @@
 ﻿using System;
-using DynamoDbAutoScaler.Interfaces;
+using DynamoDbAutoscaler.Interfaces;
 using Serilog;
 
-namespace DynamoDbAutoScaler
+namespace DynamoDbAutoscaler
 {
     public class AutoscalingCalculator : IAutoscalingCalculator
     {

@@ -1,10 +1,10 @@
 ﻿using System.Threading;
 using Moq;
 using NUnit.Framework;
-using DynamoDbAutoScaler.Provisioners;
+using DynamoDbAutoscaler.Provisioners;
 using Serilog;
 using DynamoDbAutoscaler.Interfaces;
-using DynamoDbAutoScaler.Configuration;
+using DynamoDbAutoscaler.Configuration;
 using System.Threading.Tasks;
 
 namespace DynamoDbAutoscaler.Test.Provisioners

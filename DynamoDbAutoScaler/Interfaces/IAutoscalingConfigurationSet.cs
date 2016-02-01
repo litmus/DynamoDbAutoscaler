@@ -1,6 +1,6 @@
-﻿using DynamoDbAutoScaler.Configuration;
+﻿using DynamoDbAutoscaler.Configuration;
 
-namespace DynamoDbAutoScaler.Interfaces
+namespace DynamoDbAutoscaler.Interfaces
 {
     public interface IAutoscalingConfigurationSet
     {

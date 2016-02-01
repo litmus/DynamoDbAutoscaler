@@ -1,4 +1,4 @@
-﻿using DynamoDbAutoScaler.Configuration;
+﻿using DynamoDbAutoscaler.Configuration;
 using NUnit.Framework;
 using System.Threading.Tasks;
 

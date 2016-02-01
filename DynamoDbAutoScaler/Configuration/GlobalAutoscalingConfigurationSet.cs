@@ -2,10 +2,10 @@
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using DynamoDbAutoScaler.Interfaces;
+using DynamoDbAutoscaler.Interfaces;
 using Newtonsoft.Json;
 
-namespace DynamoDbAutoScaler.Configuration
+namespace DynamoDbAutoscaler.Configuration
 {
     public class GlobalAutoscalingConfigurationSet : AutoscalingConfigurationSet, IAutoscalingConfigurationSet
     {

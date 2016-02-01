@@ -1,4 +1,4 @@
-﻿using DynamoDbAutoScaler;
+﻿using DynamoDbAutoscaler;
 using NUnit.Framework;
 
 namespace DynamoDbAutoscaler.Test
