@@ -2,7 +2,6 @@
 using System.Threading.Tasks;
 using DynamoDbAutoscaler.Interfaces;
 using Serilog;
-using DynamoDbAutoscaler.Interfaces;
 using DynamoDbAutoscaler;
 
 namespace DynamoDbAutoscaler.Provisioners

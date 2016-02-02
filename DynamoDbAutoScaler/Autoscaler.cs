@@ -8,10 +8,8 @@ using DynamoDbAutoscaler.Configuration;
 using DynamoDbAutoscaler.Interfaces;
 using DynamoDbAutoscaler.Models;
 using DynamoDbAutoscaler.Provisioners;
-using DynamoDbAutoscaler.Interfaces;
 using Serilog;
 using DynamoDbAutoscaler;
-using DynamoDbAutoscaler.Models;
 
 namespace DynamoDbAutoscaler
 {

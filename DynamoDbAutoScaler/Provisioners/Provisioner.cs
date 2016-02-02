@@ -3,7 +3,6 @@ using System.Threading;
 using System.Threading.Tasks;
 using Amazon.DynamoDBv2.Model;
 using DynamoDbAutoscaler.Interfaces;
-using DynamoDbAutoscaler.Interfaces;
 using Serilog;
 using DynamoDbAutoscaler;
 
