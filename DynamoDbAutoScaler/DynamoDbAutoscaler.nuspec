@@ -16,7 +16,7 @@
     <tags>aws dynamodb dynamo</tags>
     <dependencies>
       <dependency id="AWSSDK" version="2.3.0.0" />
-      <dependency id="Newtonsoft.Json" version="8.1.0.0" />
+      <dependency id="Newtonsoft.Json" version="8.0.1" />
       <dependency id="Serilog" version="1.5.1" />
       <dependency id="TransientFaultHandling.Core" version="5.1.1209.0" />
     </dependencies>
