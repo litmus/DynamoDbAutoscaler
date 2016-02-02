@@ -6,10 +6,13 @@
     <title>DynamoDbAutoscaler</title>
     <authors>Litmus</authors>
     <owners>Litmus</owners>
+    <language>en-us</language>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Auto scale dynamodb tables based on usage.  Inspired by Dynamic DynamoDB https://github.com/sebdah/dynamic-dynamodb </description>
     <releaseNotes></releaseNotes>
     <copyright>Copyright 2015-2016 Litmus</copyright>
-    <tags></tags>
+    <licenseUrl>https://github.com/litmus/DynamoDbAutoscaler/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/litmus/DynamoDbAutoscaler</projectUrl>
+    <tags>aws dynamodb dynamo</tags>
   </metadata>
 </package>
