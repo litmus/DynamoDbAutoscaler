@@ -1,6 +1,9 @@
 # DynamoDbAutoscaler
 Provides auto scaling for AWS DynamoDB within a .NET library.  Inspired by [sebdah's dynamic-dynamodb project](https://github.com/sebdah/dynamic-dynamodb).
 
+# Nuget
+Nuget package is available at https://www.nuget.org/packages/DynamoDbAutoscaler/
+
 # Usage
 To use in a service with a [simple local json configuration](https://github.com/litmus/DynamoDbAutoscaler/blob/master/autoscaling.json) create an instance DynamoDbAutoscalerIntervalProvisioner and call Start on service start.  The autoscaler will load the file at ./autoscaling.json as its configuration for throughput provisioning and make adjustments every 5 minutes.  
 
