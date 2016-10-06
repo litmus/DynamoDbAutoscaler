@@ -1,40 +1,67 @@
 ﻿{
-    "CheckInterval": 120,
+    "CheckInterval": 60,
     "DemoMode": true,
     "Reads": {
         "EnableAutoscaling": true,
         "UpperThreshold": 50,
         "LowerThreshold": 25,
-        "ThrottleThreshold": 50,
-        "IncreaseWithPercent": 50,
-        "DecreaseWithPercent": 45,
+        "ThrottleThreshold": 100,
+        "IncreaseWithPercent": 65,
+        "DecreaseWithPercent": 45
     },
     "Writes": {
         "EnableAutoscaling": true,
         "UpperThreshold": 50,
         "LowerThreshold": 25,
-        "ThrottleThreshold": 50,
-        "IncreaseWithPercent": 50,
-        "DecreaseWithPercent": 45,
+        "ThrottleThreshold": 200,
+        "IncreaseWithPercent": 20,
+        "DecreaseWithPercent": 45
     },
     "TableConfigurations": [
         {
+            "DemoMode": true,
             "TableName": "table1",
-            "Reads": { "MinProvisioned": 1, "MaxProvisioned": 100 },
-            "Writes": { "MinProvisioned": 1, "MaxProvisioned": 1000 }
+            "Reads": {
+                "EnableAutoscaling": true,
+                "MinProvisioned": 1,
+                "MaxProvisioned": 100
+            },
+            "Writes": {
+                "EnableAutoscaling": true,
+                "MinProvisioned": 1,
+                "MaxProvisioned": 1000
+            }
         },
         {
+            "DemoMode": true,
             "TableName": "table2",
-            "Reads": { "MinProvisioned": 1, "MaxProvisioned": 10 },
-            "Writes": { "MinProvisioned": 1, "MaxProvisioned": 150 }
+            "Reads": {
+                "EnableAutoscaling": true,
+                "MinProvisioned": 1,
+                "MaxProvisioned": 10
+            },
+            "Writes": {
+                "EnableAutoscaling": true,
+                "MinProvisioned": 1,
+                "MaxProvisioned": 150
+            }
         }
     ],
     "GlobalSecondaryIndexConfigurations": [
         {
+            "DemoMode": true,
             "TableName": "table1",
             "IndexName": "index1",
-            "Reads": { "MinProvisioned": 1, "MaxProvisioned": 10 },
-            "Writes": { "MinProvisioned": 1, "MaxProvisioned": 10 }
+            "Reads": {
+                "EnableAutoscaling": true,
+                "MinProvisioned": 1,
+                "MaxProvisioned": 10
+            },
+            "Writes": {
+                "EnableAutoscaling": true,
+                "MinProvisioned": 1,
+                "MaxProvisioned": 10
+            }
         }
     ]
 }
