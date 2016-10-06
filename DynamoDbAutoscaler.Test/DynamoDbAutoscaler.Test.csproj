@@ -75,8 +75,7 @@
     <Compile Include="UnitTestLogger.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\autoscaling.json">
-      <Link>autoscaling.json</Link>
+    <None Include="autoscaling.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />
