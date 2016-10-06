@@ -31,8 +31,8 @@ namespace DynamoDbAutoscaler
             ensureMetricsAreProvisionedTimer.Interval = DemandCheckInterval.TotalMilliseconds;
         }
 
-        public DynamoDbAutoscalerIntervalProvisioner(ILogger logger) : 
-            this(logger, new Autoscaler(logger), new LocalFileGlobalAutoscalingConfigurationSetFactory())
+        public DynamoDbAutoscalerIntervalProvisioner(ILogger logger, string localFilePath = "./autoscaling.json") : 
+            this(logger, new Autoscaler(logger), new LocalFileGlobalAutoscalingConfigurationSetFactory(localFilePath))
         {
 
         }
