@@ -30,7 +30,6 @@ Task("UnitTest")
 		var resultsFile = artifactsDirectory + "/NUnitResults.xml";
 		NUnit3("./DynamoDbAutoscaler.Test/bin/Release/DynamoDbAutoscaler.Test.dll", new NUnit3Settings()
 		{
-			ResultFormat =  AppVeyor.IsRunningOnAppVeyor ? "AppVeyor" : null,
 			Results = resultsFile,
 		});
 
