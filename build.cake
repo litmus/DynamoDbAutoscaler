@@ -60,7 +60,7 @@ Task("UploadNugetPackages")
 			return;
 		}
 
-		var files = GetFiles(artifactsDirectory + "/*.nuget");
+		var files = GetFiles(artifactsDirectory + "/*.nupkg");
 		foreach(var file in files)
 		{
 			AppVeyor.UploadArtifact(file);
