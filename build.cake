@@ -52,9 +52,25 @@ Task("Pack")
 		});
 	});
 
+Task("UploadNugetPackages")
+	.IsDependentOn("Pack")
+	.Does(() => {
+		if(!AppVeyor.IsRunningOnAppVeyor)
+		{
+			return;
+		}
+
+		var files = GetFiles(artifactsDirectory + "/*.nuget");
+		foreach(var file in files)
+		{
+			AppVeyor.UploadArtifact(file);
+		}
+	});
+
 Task("Default")
 	.IsDependentOn("Build")
 	.IsDependentOn("UnitTest")
 	.IsDependentOn("Pack");
+	.IsDependentOn("UploadNugetPackages");
   
 RunTarget(target);
