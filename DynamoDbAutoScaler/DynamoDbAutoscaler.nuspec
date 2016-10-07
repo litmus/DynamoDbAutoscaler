@@ -19,6 +19,9 @@
       <dependency id="Newtonsoft.Json" version="8.0.1" />
       <dependency id="Serilog" version="1.5.1" />
       <dependency id="TransientFaultHandling.Core" version="5.1.1209.0" />
+      <dependency id="Moq" version="4.2.1510.2205" developmentDependency="true" />
+      <dependency id="NUnit" version="3.0.1" developmentDependency="true" />
+      <dependency id="NUnit.Console" version="3.0.1" developmentDependency="true" />
     </dependencies>
   </metadata>
 </package>
