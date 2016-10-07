@@ -21,4 +21,7 @@
       <dependency id="TransientFaultHandling.Core" version="5.1.1209.0" />
     </dependencies>
   </metadata>
+    <files>
+       <file src="DynamoDbAutoscaler.dll" target="lib/net45" />
+    </files>
 </package>

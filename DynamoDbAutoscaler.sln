@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamoDbAutoscaler", "DynamoDbAutoScaler\DynamoDbAutoscaler.csproj", "{E879FC21-B739-45B0-8380-09A1A37AF59B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamoDbAutoscaler.Test", "DynamoDbAutoscaler.Test\DynamoDbAutoscaler.Test.csproj", "{34D6995A-F618-4B83-8404-BAA3DF08A09B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{FBFBB56E-3379-4A3E-B830-ED5E738A52F1}"
+	ProjectSection(SolutionItems) = preProject
+		build.cake = build.cake
+		build.ps1 = build.ps1
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
