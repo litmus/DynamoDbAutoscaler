@@ -70,7 +70,7 @@ Task("UploadNugetPackages")
 Task("Default")
 	.IsDependentOn("Build")
 	.IsDependentOn("UnitTest")
-	.IsDependentOn("Pack");
+	.IsDependentOn("Pack")
 	.IsDependentOn("UploadNugetPackages");
   
 RunTarget(target);
