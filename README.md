@@ -1,6 +1,8 @@
 # DynamoDbAutoscaler
 Provides auto scaling for AWS DynamoDB within a .NET library.  Inspired by [sebdah's dynamic-dynamodb project](https://github.com/sebdah/dynamic-dynamodb).
 
+[![Build status](https://ci.appveyor.com/api/projects/status/8m542idys5e959xs?svg=true)](https://ci.appveyor.com/project/brianfeucht/dynamodbautoscaler)
+
 # Nuget
 Nuget package is available at https://www.nuget.org/packages/DynamoDbAutoscaler/
 
