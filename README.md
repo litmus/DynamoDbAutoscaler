@@ -1,3 +1,5 @@
+We no longer use or maintain this project.  Please reach out to hello@limtus.com if you are interested in taking ownership.
+
 # DynamoDbAutoscaler
 Provides auto scaling for AWS DynamoDB within a .NET library.  Inspired by [sebdah's dynamic-dynamodb project](https://github.com/sebdah/dynamic-dynamodb).
 
