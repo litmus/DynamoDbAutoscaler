@@ -1,3 +1,4 @@
+# Archived
 We no longer use or maintain this project.  Please reach out to hello@limtus.com if you are interested in taking ownership.
 
 # DynamoDbAutoscaler
